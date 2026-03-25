@@ -106,29 +106,29 @@ export default function HomePage() {
             <span className="font-headline text-[10px] uppercase tracking-[0.2em] text-white/60 font-bold mb-2 block">
               Welcome Back
             </span>
-            <h2 className="font-headline text-[30px] font-extrabold text-white mb-5 leading-tight">
+            <h2 className="font-headline text-[30px] font-extrabold text-white leading-tight">
               Hey Hetvi! 👋
             </h2>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/10 space-y-2.5">
-              <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-emerald-300" style={{ fontSize: "20px" }}>
-                  check_circle
-                </span>
-                <p className="text-white text-sm font-semibold">+1 Mark for Correct Answer</p>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-rose-300" style={{ fontSize: "20px" }}>
-                  cancel
-                </span>
-                <p className="text-white text-sm font-semibold">−¼ Mark for Wrong Answer</p>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-slate-300" style={{ fontSize: "20px" }}>
-                  skip_next
-                </span>
-                <p className="text-white text-sm font-semibold">0 Marks for Skipped</p>
+            <p className="text-white/75 text-sm mt-1.5 mb-5 leading-relaxed">
+              Your Gujarat Physio dream is one practice away. Let&apos;s go! 🚀
+            </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
+              <p className="text-[10px] font-bold text-white/50 uppercase tracking-widest font-headline mb-3">Marking Scheme</p>
+              <div className="flex items-center justify-between">
+                <div className="flex flex-col items-center gap-1">
+                  <span className="text-xl font-headline font-extrabold text-emerald-300">+1</span>
+                  <span className="text-[10px] text-white/60 font-semibold">Correct</span>
+                </div>
+                <div className="h-8 w-px bg-white/15" />
+                <div className="flex flex-col items-center gap-1">
+                  <span className="text-xl font-headline font-extrabold text-rose-300">−¼</span>
+                  <span className="text-[10px] text-white/60 font-semibold">Wrong</span>
+                </div>
+                <div className="h-8 w-px bg-white/15" />
+                <div className="flex flex-col items-center gap-1">
+                  <span className="text-xl font-headline font-extrabold text-white/50">0</span>
+                  <span className="text-[10px] text-white/60 font-semibold">Skipped</span>
+                </div>
               </div>
             </div>
           </div>
